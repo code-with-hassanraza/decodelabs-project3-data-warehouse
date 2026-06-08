@@ -141,7 +141,7 @@ CREATE TABLE Interns (
 ---
 
 ## 🐍 Python Bonus Script
-The `python/rds_connect.py` script demonstrates programmatic access to the private
+The `Python Script/rds_connect.py` script demonstrates programmatic access to the private
 RDS instance through an SSH tunnel using PyMySQL and SSHTunnel libraries.
 
 **Install dependencies:**
