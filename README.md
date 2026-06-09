@@ -64,7 +64,7 @@ decodelabs-project3-data-warehouse/
 │   ├── 02-create-table.sql
 │   ├── 03-insert-records.sql
 │   └── 04-select-query.sql
-├── python/
+├── Python Script/
 │   └── rds_connect.py
 ├── config/
 │   ├── rds-configuration.md
