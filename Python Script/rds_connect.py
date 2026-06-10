@@ -10,21 +10,20 @@ from sshtunnel import SSHTunnelForwarder
 
 # ----------------------------------------------------------------
 #  CONFIGURATION
-#  ⚠️  If your EC2 was stopped/restarted, update EC2_HOST below
-#      with the new Public IP from the AWS console.
+#  ⚠️ Replace these values with your own before running
 # ----------------------------------------------------------------
 
 # EC2 Bastion Host
-EC2_HOST     = '100.54.35.199' # Update if EC2 IP changes
+EC2_HOST     = 'YOUR-EC2-PUBLIC-IP' # Update with Your EC2 IP.
 EC2_PORT     = 22
 EC2_USER     = 'ec2-user'
 EC2_KEY_PATH = r'C:\Users\YourUsername\.ssh\your-key.pem'  # Update with your PEM key path
 
 # RDS MySQL Instance
-RDS_ENDPOINT = 'decodelabs-data-warehouse.cqlmwgauqebn.us-east-1.rds.amazonaws.com'
+RDS_ENDPOINT = 'YOUR-RDS-ENDPOINT.rds.amazonaws.com' #Update With Your RDS Endpoint
 RDS_PORT     = 3306
-DB_USER      = 'admin'
-DB_PASSWORD  = 'xyz12345'  # Use the password you set when creating the RDS instance
+DB_USER      = 'YOUR-DB-USERNAME'  #Use Your Own DB Username. 
+DB_PASSWORD  = 'YOUR-DB-PASSWORD'  # Use the password you set when creating the RDS instance.
 DB_NAME      = 'decodelabs_db'
 
 # ----------------------------------------------------------------
