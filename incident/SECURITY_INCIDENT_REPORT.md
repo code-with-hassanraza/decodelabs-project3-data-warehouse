@@ -115,7 +115,7 @@ DB_NAME      = 'your_database_name'
 ### Step 3 — Repository Update
 ```bash
 git add rds_connect.py
-git commit -m "Security: remove hardcoded credentials, replace with placeholders"
+git commit -m "Update configuration placeholders in rds_connect.py"
 git push
 ```
 
